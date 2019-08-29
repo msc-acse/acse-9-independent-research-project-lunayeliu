@@ -20,4 +20,4 @@ Author:Ye Liu
 
 
 ## License
-the MIT [license](https://github.com/msc-acse/acse-9-independent-research-project-lunayeliu/LICENSE)
+the MIT [license](https://github.com/msc-acse/acse-9-independent-research-project-lunayeliu/blob/master/LICENSE)
