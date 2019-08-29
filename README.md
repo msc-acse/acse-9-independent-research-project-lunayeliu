@@ -9,11 +9,7 @@ As shown in the figure below, the input of the neural network here is the coordi
 
 <img src="https://user-images.githubusercontent.com/43916396/63956539-86563f00-ca7e-11e9-867b-c98984a7f9e7.png" width="520" height="200" div align=center />
 
-
-<p align="center"> 
-<img src="https://user-images.githubusercontent.com/43916396/63956539-86563f00-ca7e-11e9-867b-c98984a7f9e7.png">
-</p>
-
+<img style="display: block; margin: 0 auto;" src="https://user-images.githubusercontent.com/43916396/63956539-86563f00-ca7e-11e9-867b-c98984a7f9e7.png" alt="" />
 
 
 ## Installation instructions
