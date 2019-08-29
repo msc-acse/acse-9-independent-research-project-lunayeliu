@@ -7,10 +7,7 @@ The software developed is a novel smart FEM platform which combined machine lear
 As shown in the figure below, the input of the neural network here is the coordinates value of the element.  Theoutput of the network would be sent to a softmax function( a cross-entropy function).  Then a probabilitydistribution of the possible number of integration points needed is calculated.  The number with the highestpossibility would be chosen as the input number of the tensor quad.
 
 
-<img src="https://user-images.githubusercontent.com/43916396/63956539-86563f00-ca7e-11e9-867b-c98984a7f9e7.png" width="520" height="200" div align=center />
-
-<img style="display: block; margin: 0 auto;" src="https://user-images.githubusercontent.com/43916396/63956539-86563f00-ca7e-11e9-867b-c98984a7f9e7.png" width="520" height="200"  alt="" />
-
+<div style="text-align:center"><img src="https://user-images.githubusercontent.com/43916396/63956539-86563f00-ca7e-11e9-867b-c98984a7f9e7.png" width="520" height="200"  /></div>
 
 ## Installation instructions
 
