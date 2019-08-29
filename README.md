@@ -8,7 +8,10 @@ acse-9-independent-research-project-lunayeliu created by GitHub Classroom
 
 ## Documentation
 
+## Repo Structure
+
 ## Dependencies
+To be able to run this software, the following packages and versions are required:
 
  - NumPy Version 1.16.3
  - SciPy Version 1.3.0
@@ -16,8 +19,8 @@ acse-9-independent-research-project-lunayeliu created by GitHub Classroom
 
 
 ## Author and Course Information
-Author:Ye Liu
-
+Author: Ye Liu
+Course: ACSE-9: Applied Computational Science Project
 
 ## License
-the MIT [license](https://github.com/msc-acse/acse-9-independent-research-project-lunayeliu/blob/master/LICENSE)
+This project is licensed under the MIT [license](https://github.com/msc-acse/acse-9-independent-research-project-lunayeliu/blob/master/LICENSE)
