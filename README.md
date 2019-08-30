@@ -13,6 +13,8 @@ As shown in the figure below, the input of the neural network here is the coordi
 
 ## Documentation
 
+The documentation is generated automatically by Pydoc. Part of them can be found in the 'docs' repo in the format of html. Open with browser to check.
+
 ## Repo Structure
 * __data__		- contains the data of 8-node hexahedral and 10-node tatrehedron element prepared for the training model in the 'trained model' repo
  
