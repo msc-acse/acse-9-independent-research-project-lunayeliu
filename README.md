@@ -13,7 +13,7 @@ The neural network in the machine learning module can select the optimal number 
 
 ## Documentation
 
-The documentation is generated automatically by Pydoc. Part of them can be found in the 'docs' repo in the format of html. Open with browser to check.
+The documentation is generated automatically by Pydoc. Part of them can be found in the 'docs' repo (.html). Open with browser to check.
 
 ## Repo Structure
 * __data__		- contains the data of 8-node hexahedral and 10-node tatrehedron element prepared for the training model in the 'trained model' repo
@@ -43,7 +43,32 @@ To be able to run this software, the following packages and versions are require
  - matplotlib Version 3.1.0
 
 ## Test and example
+There are four test cases could be executed using very easy bash commands.
 
+- Data generation
+This part involves FEM, integration and elements modules. By running the following commands, all mentioned above module could be tested.
+```bash
+  cd data_generation
+  python3 run_generation_tetra.py 
+  python3 run_generation_hex.py 
+```
+
+- Training process
+This part is a test case for neural network training. The lines below are used to retrain a nerural network.
+```bash
+  cd machine_learning_module
+  python3 train.py
+```
+- Load model
+There are two trained models whcih could be use and make predicitons. The following commands help you load and play with test input data.
+```bash
+  cd machine_learning_module
+  python3 load.py
+```
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/43916396/64030149-ea8c0800-cb3d-11e9-9426-aa36f82c97a7.PNG" width="520" height="250"><br>
+</p>
 
 ## Author and Course Information
 
