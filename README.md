@@ -13,7 +13,24 @@ As shown in the figure below, the input of the neural network here is the coordi
 
 ## Documentation
 
+The documentation is generated automatically by Pydoc. Part of them can be found in the 'docs' repo in the format of html. Open with browser to check.
+
 ## Repo Structure
+* __data__		- contains the data of 8-node hexahedral and 10-node tatrehedron element prepared for the training model in the 'trained model' repo
+ 
+* __data_generation__ - holds the code for generating the data in the 'data' repo
+
+* __elements__ - three kinds of FEM element: 8-node hexahedral, 4-node tetrahedron, 10-node tetrahedron 
+ 
+* __FEM_modules__ - sepsific FEM code for linear elasticity problem
+  
+* __HPC_scripts__ - the scripts of generating dataset using HPC
+  
+* __integration_module__ - contains the smart integration method
+
+* __trained_model__  - holds all the machine learning models
+
+* __utils__ - some basic tools 
 
 ## Dependencies
 To be able to run this software, the following packages and versions are required:
@@ -24,6 +41,8 @@ To be able to run this software, the following packages and versions are require
  - PyTorch Version 1.1
  - Sikit-learn Version 0.21
  - matplotlib Version 3.1.0
+
+## Test and example
 
 
 ## Author and Course Information
