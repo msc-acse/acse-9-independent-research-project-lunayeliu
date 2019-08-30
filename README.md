@@ -40,6 +40,8 @@ To be able to run this software, the following packages and versions are require
  - Sikit-learn Version 0.21
  - matplotlib Version 3.1.0
 
+## Test and example
+
 
 ## Author and Course Information
 
