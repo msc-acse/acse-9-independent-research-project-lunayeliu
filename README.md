@@ -14,28 +14,22 @@ As shown in the figure below, the input of the neural network here is the coordi
 ## Documentation
 
 ## Repo Structure
-- data
-  contains the data of 8-node hexahedral and 10-node tatrehedron element prepared for the training model in the 'trained model' repo
+* __data__		- contains the data of 8-node hexahedral and 10-node tatrehedron element prepared for the training model in the 'trained model' repo
+ 
+* __data_generation__ - holds the code for generating the data in the 'data' repo
 
-- data_generation
-  holds the code for generating the data in the 'data' repo
+* __elements__ - three kinds of FEM element: 8-node hexahedral, 4-node tetrahedron, 10-node tetrahedron 
+ 
+* __FEM_modules__ - contains the sepsific FEM code for linear elasticity problem
+  
+* __HPC_scripts__ - holds the scripts of generating dataset using HPC
+  
+* __integration_module__ - contains the smart integration method
 
-- elements
-  three kinds of FEM element: 8-node hexahedral, 4-node tetrahedron, 10-node tetrahedron 
-  
-- FEM_modules
-  contains the sepsific FEM code for linear elasticity problem
-  
-- HPC_scripts
-  holds the scripts of generating dataset using HPC
-  
-- integration_module
-  contains the smart integration method
-  
-- trained_model
-  holds all the machine learning models
+* __trained_model__  - holds all the machine learning models
 
-- units
+* __unils__ -
+
 ## Dependencies
 To be able to run this software, the following packages and versions are required:
 
