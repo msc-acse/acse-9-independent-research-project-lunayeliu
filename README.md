@@ -5,7 +5,7 @@ Applying machine learning to the optimisation of numericalintegration in finite 
 The software developed is a novel smart FEM platform which combined machine learning techniques with the traditional deterministic method. To specific mechanics problem, this software is able to provide solutions more efficiently with the same accuracy than the traditional method.
 
 As shown in the figure below, the input of the neural network here is the coordinates value of the element.  Theoutput of the network would be sent to a softmax function( a cross-entropy function).  Then a probabilitydistribution of the possible number of integration points needed is calculated.  The number with the highestpossibility would be chosen as the input number of the tensor quad.
-
+The neural network in the machine learning module can select the optimal number of integration points for numerical integration according to elements shapes. The classification accuracy of the network on unseen data can reach $94.3\%$.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/43916396/63956539-86563f00-ca7e-11e9-867b-c98984a7f9e7.png" width="520" height="200"><br>
