@@ -20,9 +20,9 @@ As shown in the figure below, the input of the neural network here is the coordi
 
 * __elements__ - three kinds of FEM element: 8-node hexahedral, 4-node tetrahedron, 10-node tetrahedron 
  
-* __FEM_modules__ - contains the sepsific FEM code for linear elasticity problem
+* __FEM_modules__ - sepsific FEM code for linear elasticity problem
   
-* __HPC_scripts__ - holds the scripts of generating dataset using HPC
+* __HPC_scripts__ - the scripts of generating dataset using HPC
   
 * __integration_module__ - contains the smart integration method
 
