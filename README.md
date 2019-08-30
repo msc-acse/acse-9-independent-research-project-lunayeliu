@@ -28,7 +28,7 @@ As shown in the figure below, the input of the neural network here is the coordi
 
 * __trained_model__  - holds all the machine learning models
 
-* __unils__ -
+* __utils__ - some basic tools 
 
 ## Dependencies
 To be able to run this software, the following packages and versions are required:
