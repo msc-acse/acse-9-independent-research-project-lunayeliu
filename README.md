@@ -18,9 +18,12 @@ As shown in the figure below, the input of the neural network here is the coordi
 ## Dependencies
 To be able to run this software, the following packages and versions are required:
 
+ - Python Version 3.7
  - NumPy Version 1.16.3
  - SciPy Version 1.3.0
  - PyTorch Version 1.1
+ - Sikit-learn Version 0.21
+ - matplotlib Version 3.1.0
 
 
 ## Author and Course Information
@@ -36,4 +39,5 @@ CID: 01626306
 Course: ACSE-9: Applied Computational Science Project
 
 ## License
-This project is licensed under the MIT [license](https://github.com/msc-acse/acse-9-independent-research-project-lunayeliu/blob/master/LICENSE)
+
+Licensed under the MIT [license](https://github.com/msc-acse/acse-9-independent-research-project-lunayeliu/blob/master/LICENSE)
