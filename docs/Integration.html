@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Integration</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Integration</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Clunal%5Cdesktop%5Cfinal_code_dlcm%5Cintegration_module%5Cintegration.py">c:\users\lunal\desktop\final_code_dlcm\integration_module\integration.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="numpy.html">numpy</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="Integration.html#TensorQuad">TensorQuad</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="TensorQuad">class <strong>TensorQuad</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#TensorQuad">TensorQuad</a>(func,&nbsp;ranges,&nbsp;n,&nbsp;w)<br>
+&nbsp;<br>
+Class&nbsp;to&nbsp;do&nbsp;the&nbsp;multiple&nbsp;integrations&nbsp;in&nbsp;a&nbsp;tensor&nbsp;way<br>
+&nbsp;<br>
+Input<br>
+func:&nbsp;integrand<br>
+ranges:&nbsp;integraiton&nbsp;limit<br>
+n:&nbsp;number&nbsp;of&nbsp;integraiton&nbsp;points<br>
+w:&nbsp;corrsponding&nbsp;weights<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="TensorQuad-__init__"><strong>__init__</strong></a>(self, func, ranges, n, w)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="TensorQuad-integrate"><strong>integrate</strong></a>(self, *args, **kwargs)</dt><dd><tt>Gauss&nbsp;Quadrature&nbsp;using&nbsp;a&nbsp;tensor&nbsp;way<br>
+&nbsp;<br>
+Scalar&nbsp;way:<br>
+The&nbsp;mutiple&nbsp;summentions&nbsp;are&nbsp;implemented&nbsp;using<br>
+&nbsp;Weights_Tensor&nbsp;*&nbsp;Value_Tensor&nbsp;after&nbsp;value&nbsp;tensor&nbsp;is&nbsp;calculated,<br>
+&nbsp;do&nbsp;multplication&nbsp;in&nbsp;corrsponding&nbsp;position&nbsp;of&nbsp;each&nbsp;tensor<br>
+&nbsp;<br>
+Vector&nbsp;way:<br>
+The&nbsp;mutiple&nbsp;summentions&nbsp;are&nbsp;implemented&nbsp;step&nbsp;by&nbsp;step&nbsp;inside&nbsp;the&nbsp;value&nbsp;matrix<br>
+calculation&nbsp;process</tt></dd></dl>
+
+<dl><dt><a name="TensorQuad-tensor_breaker_vec"><strong>tensor_breaker_vec</strong></a>(self, tensor, *args, depth)</dt><dd><tt>Calculate&nbsp;the&nbsp;value&nbsp;tensor&nbsp;for&nbsp;Gauss&nbsp;Quadrature<br>
+--------------------------------------------------<br>
+tensor:&nbsp;a&nbsp;copy&nbsp;of&nbsp;the&nbsp;weight&nbsp;tensor<br>
+*args:&nbsp;the&nbsp;value&nbsp;for&nbsp;variables&nbsp;(..x1,&nbsp;x2,&nbsp;x3..xn)<br>
+depth:&nbsp;current&nbsp;layer&nbsp;of&nbsp;the&nbsp;quadrature</tt></dd></dl>
+
+<dl><dt><a name="TensorQuad-tensor_constructor"><strong>tensor_constructor</strong></a>(self, data, new_vec)</dt><dd><tt>Constrcut&nbsp;a&nbsp;tensor-like&nbsp;data&nbsp;structure<br>
+Increase&nbsp;one&nbsp;dimension&nbsp;for&nbsp;the&nbsp;target&nbsp;tensor&nbsp;using&nbsp;a&nbsp;vector<br>
+--------------------------------------------<br>
+data:&nbsp;target&nbsp;tensor<br>
+new_vec:&nbsp;vector&nbsp;data&nbsp;used&nbsp;to&nbsp;increase&nbsp;dimension</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
